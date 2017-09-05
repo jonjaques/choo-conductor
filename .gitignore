@@ -1,1 +1,5 @@
 node_modules
+index.js
+index.js.map
+example/node_modules
+example/public

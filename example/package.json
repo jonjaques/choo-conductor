@@ -1,0 +1,32 @@
+{
+  "name": "choo-conductor-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.17.2",
+    "choo": "jonjaques/choo#feature/add-route-event",
+    "choo-log": "^7.2.1",
+    "compression": "^1.7.0",
+    "express": "^4.15.4",
+    "require-all-context": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.18.2"
+  },
+  "scripts": {
+    "start": "node index",
+    "build": "webpack --env production",
+    "dev": "nodemon --watch server"
+  }
+}
